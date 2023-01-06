@@ -1,14 +1,17 @@
+/* my plans section style start  */
 .my-plans-h2{
     text-align: center;
     font-size: 40px;
     font-weight: 700;
     color: #151414;
     font-family: 'Work Sans', sans-serif;
+    margin: 50px 0;
 }
 .my-plan{
     text-align: center;
     display: flex;
     justify-content: space-around;
+    height: 299.96px;
 }
 .my-plans-h3{
     font-weight: 700;
@@ -24,4 +27,49 @@
     line-height: 29px;
     font-family: 'Work Sans', sans-serif;
     margin: 16px;
+  
+}
+/* my plans section style end */
+.future{
+    display: flex;
+    gap: 100px;
+    height: 577px;
+    padding: 130px 230px;
+     background: #151414;
+     font-family: 'Work Sans';
+     color: #F8F8F8;
+
+
+}
+.future-section-left{
+    padding: 70px;
+    font-family: 'Work Sans';
+}
+.future-section-right{
+    padding: 70px;
+    font-family: 'Work Sans';
+}
+.future-section-title{ 
+margin: 0px;
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+}
+.future-section-description{
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+}
+.future-section-button{
+    border-radius: 8px;
+    width: 160px;
+    height: 50px;
+    border-radius: 8px;
+    color: #F15B22;
+}
+.future-section-form input[type="email"]{
+    margin: 10px 0px;
+    width: 325px;
+    height: 50px;
+    border-radius: 8px;
 }

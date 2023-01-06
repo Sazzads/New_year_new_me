@@ -133,7 +133,7 @@ p {
 .gradient-section{
     margin: 150px 230px;
     height: 300px;
-    background-image:linear-gradient(to right, rgba(241, 135, 14, 0.52), rgba(23, 226, 34, 0.73)),url('../images/watch.png');
+    background-image:linear-gradient(to right, rgba(6, 44, 255, 0.52), rgba(55, 2, 245, 0.071)),url('../images/watch.png');
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 8px;
@@ -162,6 +162,42 @@ color: white;
 border: none;
 }
 /* gradient-section end  */
+
+/* extra section start  */
+.contact{
+    text-align: center;
+    height: 550px;
+    padding: 50px 230px;
+    background-image: linear-gradient( #151414,white);
+    color: white;
+}
+.contact-header{
+    font-size: 30px;
+    font-weight: 700;
+    margin: 20px;
+    
+}
+fieldset label,input{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.contact-btn{
+    background-color: grey;
+    border: none;
+    height: 50px;
+    width: 150px;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+.contact-btn:hover{
+    background-color: #151414;
+    font-size: 20px;
+    color: #FFFFFF;
+    border-radius: 8px;
+}
+/* extra section end */
+
+
 /* future section style start  */
 .future{
     display: flex;
@@ -207,3 +243,4 @@ line-height: 26px;
     border-radius: 8px;
 }
 /* future section style end  */
+

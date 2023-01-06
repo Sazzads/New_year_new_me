@@ -1,3 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans';
+
+}
+
+/* header section part start  */
+header {
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 808px;
+    text-align: right;
+    background-image: url(/images/banner/banner1.png);
+}
+
+.header-content {
+    margin-top: 100px;
+    position: absolute;
+    margin-left: 650px;
+    margin-right: 150px;
+}
+
+h1 {
+    font-size: 65px;
+    color: #151414;
+    margin-bottom: 20px;
+
+}
+
+.hedaer-description {
+    font-size: 16px;
+    color: #444343;
+    font-weight: 300;
+    line-height: 30px;
+    margin-bottom: 15px;
+
+}
+
+button {
+    padding: 12px 18px;
+    border-radius: 5px;
+    height: 64px;
+    width: 160px;
+    border: none;
+    background: #F15B22;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bold;
+
+}
+
+a:hover {
+    color: green;
+    font-weight: 900;
+}
+
+/* header section part end  */
+
+/* failure section part start  */
+.failure-section {
+    
+    display: flex;
+    margin: 10px 100px;
+}
+
+h2 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 40px;
+}
+.failure-image{
+    width: 50%;
+}
+.failure-description{
+    width: 50%;
+    margin-top: 150px;
+}
+.fa-solid{
+    color: #16D887;
+    margin-right: 6px;
+}
+/* failure section end */
+
 /* my plans section style start  */
 .my-plans-h2{
     text-align: center;
@@ -62,7 +158,7 @@ font-weight: 600;
 font-size: 20px;
 line-height: 23px;
 text-align: center;
-color: #F15B22;
+color: white;
 border: none;
 }
 /* gradient-section end  */
